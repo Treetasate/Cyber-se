@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Checkbox from '@mui/material/Checkbox';
 import { FormControl, InputLabel, Select, MenuItem, Button, Box } from "@mui/material";
-import { useMembersContext } from "../contexts/MembersContext";
+import { useMembersContext } from "../../contexts/MembersContext";
 
 export default function EditMembersEntry() {
   const [Email, setEmail] = useState("");

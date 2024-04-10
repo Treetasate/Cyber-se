@@ -3,10 +3,10 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import FormEdit from './FormEdit';
-import BottomNav from "./BottomNav";
+import Form from '../page/Form';
+import BottomNav from "../Nav/BottomNav";
 
-export default function EditMembersEntry() {
+export default function CreateMembersEntry() {
 
   return (
     <React.Fragment>
@@ -21,11 +21,10 @@ export default function EditMembersEntry() {
       <Container component="main" maxWidth="sm" sx={{ mb: 4 }}>
         <Paper variant="outlined" sx={{ my: { xs: 3, md: 6 }, p: { xs: 2, md: 3 } }}>
           <Typography component="h1" variant="h4" align="center">
-            แก้ไขข้อมูล
+            ข้อมูล
           </Typography>
-          {/* หน้าต่างลอยได้ */}
             <React.Fragment>
-              <FormEdit />
+              <Form />
             </React.Fragment>
         </Paper>
       </Container>

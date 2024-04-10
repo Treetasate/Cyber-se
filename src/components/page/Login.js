@@ -3,7 +3,7 @@ import { Col, Row, Button, FormGroup, Input, Label, Form, Container } from "reac
 import axios from "axios";
 import { toast } from "react-toastify";
 import { Link, useNavigate } from "react-router-dom";
-import { storeUser } from "../helpers";
+import { storeUser } from "../../helpers";
 import { GoogleLogin } from 'react-google-login';
 import FacebookLogin from 'react-facebook-login';
 

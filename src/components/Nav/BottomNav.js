@@ -9,7 +9,7 @@ import { AddCircleOutline, ContactPageOutlined, LogoutOutlined } from "@mui/icon
 import Typography from "@mui/material/Typography";
 
 import { useNavigate } from 'react-router-dom';
-import { useMembersContext } from "../contexts/MembersContext";
+import { useMembersContext } from "../../contexts/MembersContext";
 
 export default function LabelBottomNavigation({id}) {
   const { nav_value, changeNavValue, getMembersId } = useMembersContext();

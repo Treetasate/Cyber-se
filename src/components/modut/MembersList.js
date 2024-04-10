@@ -7,11 +7,11 @@ import List from '@mui/material/List';
 import Paper from '@mui/material/Paper';
 
 // custom components
-import BottomNav from './BottomNav';
-import MembersListItem from './MembersListItem';
+import BottomNav from '../Nav/BottomNav';
+import MembersListItem from '../modut/MembersListItem';
 
 // data
-import { useMembersContext } from '../contexts/MembersContext';
+import { useMembersContext } from '../../contexts/MembersContext';
 
 
 export default function MembersList() {

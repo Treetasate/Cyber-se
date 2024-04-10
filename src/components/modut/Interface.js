@@ -1,12 +1,12 @@
 import React from 'react';
 
 // custom component
-import MembersList from './MembersList';
-import CreateMembersEntry from './CreateMembersEntry';
-import EditMembersEntry from './EditMembersEntry';
+import MembersList from '../modut/MembersList';
+import CreateMembersEntry from '../page/CreateMembersEntry';
+import EditMembersEntry from '../page/EditMembersEntry';
 
 // contexts
-import { useMembersContext } from '../contexts/MembersContext';
+import { useMembersContext } from '../../contexts/MembersContext';
 
 const Interface = () => {
     const { nav_value } = useMembersContext();
